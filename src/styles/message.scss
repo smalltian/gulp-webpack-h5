@@ -1,0 +1,39 @@
+@import "./common.scss";
+
+#app{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    h1{
+        color: #000000;
+    }
+    h3{
+        margin-top: 10px;
+        color: #666666;
+    }
+    .desc{
+        margin-top: 20px;
+        .tit{
+            font-size: 20px;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        .c{
+            color: #666666;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+    .task{
+        margin-top: 30px;
+        .tit{
+            color: #333333;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #666666;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gulp</title>
+    <link rel="stylesheet" href="../styles/message.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>{{msg}}</h1>
+        <h3>@Author：朱军田</h3>
+        <h3>@Date:{{date}}</h3>
+        <div class="desc">
+            <p class="tit">说明：</p>
+            <p class="c">1.支持sass编译，自动浏览器前缀，sass函数编程；</p>
+            <p class="c">2.支付ES6语法；</p>
+            <p class="c">3.支持图片压缩，js压缩，css压缩；</p>
+            <p class="c">4.自动将js，css，img引入html；</p>
+            <p class="c">5.建立服务，自动编译，实时刷新，更新试图。</p>
+            <p class="c">6.支付ES6新的API，对Promise支持，兼容ie等浏览器</p>
+        </div>
+        <div class="task">
+            <div class="tit">启动项目：</div>
+            <p>1. 运行npm install</p>
+            <p>2. 运行gulp</p>
+            <pre>
+                "devDependencies": {
+                    "babel-cli": "^6.26.0",
+                    "babel-core": "^6.26.3",
+                    "babel-loader": "^7.1.5",
+                    "babel-plugin-transform-runtime": "^6.23.0",
+                    "babel-preset-es2015": "^6.24.1",
+                    "babel-preset-es2015-loose": "^8.0.0",
+                    "babel-preset-es2016": "^6.24.1",
+                    "babel-preset-latest": "^6.24.1",
+                    "babel-preset-stage-0": "^6.24.1",
+                    "browser-sync": "^2.26.3",
+                    "cssnext": "^1.8.4",
+                    "gulp": "^3.9.1",
+                    "gulp-autoprefixer": "^6.0.0",
+                    "gulp-babel": "^7.0.1",
+                    "gulp-file-include": "^2.0.1",
+                    "gulp-htmlmin": "^5.0.1",
+                    "gulp-imagemin": "^4.1.0",
+                    "gulp-minify-css": "^1.2.4",
+                    "gulp-plumber": "^1.2.0",
+                    "gulp-postcss": "^8.0.0",
+                    "gulp-rev-append": "^0.1.8",
+                    "gulp-sass": "^4.0.2",
+                    "gulp-uglify": "^3.0.1",
+                    "precss": "^3.1.2",
+                    "vue": "^2.5.17",
+                    "webpack": "^4.23.0",
+                    "webpack-stream": "^5.1.1"
+                }
+            </pre>
+        </div>
+    </div>
+    <script src="../js/libs/vue.min.js"></script>
+    <script src="../js/message.js"></script>
+</body>
+
+</html>
